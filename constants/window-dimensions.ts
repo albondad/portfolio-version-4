@@ -1,4 +1,4 @@
-const mobileWidth = 400;
+const mobileWidth = 500;
 const tabletWidth = 800;
 
 export const mediaQueries = {
