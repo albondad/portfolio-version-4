@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn build-for-heroku",
-    "start-webpack-server": "webpack serve --config configuration/webpack.js",
+    "start-webpack-development-server": "webpack serve --config configuration/webpack-development.js",
     "start-express-development-server": "nodemon express/server.ts",
     "start-express-production-server": "node express/server.ts",
-    "build-webpack-bundle": "webpack --config configuration/webpack.js",
+    "build-webpack-bundle": "webpack --config configuration/webpack-production.js",
     "build-for-heroku": "yarn build-webpack-bundle && yarn start-express-production-server"
   },
   "dependencies": {
