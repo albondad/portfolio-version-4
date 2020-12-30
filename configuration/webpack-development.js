@@ -1,7 +1,6 @@
 const webpack = require('webpack');
 const path = require('path')
 
-console.log(path.resolve(__dirname, '../react/components/views'));
 const configuration = {
     entry: './react/index.tsx',
     mode: 'development',
