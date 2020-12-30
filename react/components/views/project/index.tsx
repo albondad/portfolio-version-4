@@ -13,21 +13,22 @@ export const Project = () => {
 
     return (
         <>
-        <sharedComponents.NavigationBar />
-            <projectComponents.Header 
-                title={project.title}
-                role={project.role}
-                timeRange={project.timeRange}
-            />
-            <projectComponents.Gallery
-                images={project.images}
-            />
-            <projectComponents.Description
-                context={project.context}
-                responsibilities={project.responsibilities}
-                tools={project.tools}
-            />
-        <sharedComponents.Footer />
+            <sharedComponents.ScrollToTop />
+            <sharedComponents.NavigationBar />
+                <projectComponents.Header 
+                    title={project.title}
+                    role={project.role}
+                    timeRange={project.timeRange}
+                />
+                <projectComponents.Gallery
+                    images={project.images}
+                />
+                <projectComponents.Description
+                    context={project.context}
+                    responsibilities={project.responsibilities}
+                    tools={project.tools}
+                />
+            <sharedComponents.Footer />
         </>
     )
 };

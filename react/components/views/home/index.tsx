@@ -5,6 +5,7 @@ import * as homeComponents from './components'
 const component = () => {
     return (
         <>
+            <sharedComponents.ScrollToTop />
             <sharedComponents.NavigationBar />
             <homeComponents.Header/>
             <homeComponents.Projects/>
