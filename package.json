@@ -9,7 +9,7 @@
     "start-express-development-server": "nodemon express/server.ts",
     "start-express-production-server": "node express/server.ts",
     "build-webpack-bundle": "webpack --config configuration/webpack.js",
-    "build-for-heroku": "yarn build-webpack-bundle && start-express-production-server"
+    "build-for-heroku": "yarn build-webpack-bundle && yarn start-express-production-server"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
