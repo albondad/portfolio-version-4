@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "build-for-heroku",
     "start-webpack-server": "webpack serve --config configuration/webpack.js",
     "start-express-development-server": "nodemon express/server.ts",
     "start-express-production-server": "node express/server.ts",
