@@ -11,6 +11,10 @@ export const FooterHeading = styled.div `
     color: #ffffff;
     font-size: 24px;
     text-align: center;
+
+    :not(:first-of-type) {
+        margin-top: 64px;
+    }
 `
 
 export const FooterIcons = styled.div `

@@ -29,6 +29,17 @@ export const Footer = () => {
                     />
                 </styledComponents.FooterIconsItem>
             </styledComponents.FooterIcons>
+            <styledComponents.FooterHeading>
+                Resume
+            </styledComponents.FooterHeading>
+            <styledComponents.FooterIcons>
+                <styledComponents.FooterIconsItem onClick={() => footerIconsItemOnClick('/resume.pdf')}>
+                    <sharedComponents.Icon 
+                        size={24} 
+                        name='material-design-article'
+                    />
+                </styledComponents.FooterIconsItem>
+            </styledComponents.FooterIcons>
         </styledComponents.Footer>
     )
 }
