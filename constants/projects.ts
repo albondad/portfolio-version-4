@@ -4,7 +4,7 @@ export const projects = [
         type: 'volunteer',
         title: 'Starbucks Tip Calculator',
         role: 'Web Developer',
-        timeRange: 'February 2020 to In Progress',
+        timeRange: 'January 2021 to In Progress',
         context: 'Starbucks is a chain of restaurants that serve as cofeehouses and roasteries. One of the employees from a local Starbucks was looking for a solution to assist in automating their tip calculations process, and I volunteered in providing a web application solution. The development is still in progress.',
         responsibilities: [
             'Designed design mockups for web application',
