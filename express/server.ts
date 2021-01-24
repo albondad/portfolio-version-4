@@ -7,6 +7,10 @@ application.get('/bundle.js', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/bundle.js'))
 });
 
+application.get('/resume.pdf', (req, res) => {
+    res.sendFile(path.join(__dirname, `../public/resume.pdf`))
+});
+
 application.get('/images/:id', (req, res) => {
     const name = req.params.id;
     res.sendFile(path.join(__dirname, `../public/images/${name}`))
