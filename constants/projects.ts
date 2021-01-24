@@ -1,6 +1,37 @@
 export const projects = [
     {
+        id: 'c351eb0b-e9a8-4fe7-823f-cf62b5997a85',
+        type: 'volunteer',
+        title: 'Starbucks Tip Calculator',
+        role: 'Web Developer',
+        timeRange: 'February 2020 to In Progress',
+        context: 'Starbucks is a chain of restaurants that serve as cofeehouses and roasteries. One of the employees from a local Starbucks was looking for a solution to assist in automating their tip calculations process, and I volunteered in providing a web application solution. The development is still in progress.',
+        responsibilities: [
+            'Designed design mockups for web application',
+            'Provided diagram that goes over software achitecture',
+            'Set up initial development resources',
+        ],
+        tools: [
+            'React',
+            'Node',
+            'Express',
+            'Firebase',
+            'Git',
+            'GitHub',
+            'Javascript',
+            'HTML',
+            'CSS',
+            'Heroku',
+        ],
+        images: [
+            '/images/c351eb0b-e9a8-4fe7-823f-cf62b5997a85-01.png',
+            '/images/c351eb0b-e9a8-4fe7-823f-cf62b5997a85-02.png',
+            '/images/c351eb0b-e9a8-4fe7-823f-cf62b5997a85-03.png',
+        ]
+    },
+    {
         id: '069e10d4-c0b4-41bb-94e6-3189d7b7ee85',
+        type: 'work',
         title: 'Gyst Audio',
         role: 'Front End Developer',
         timeRange: 'February 2020 to November 2020',
@@ -38,6 +69,7 @@ export const projects = [
     },
     {
         id: '0c5c10ec-9131-450c-b107-1a87c22234f1',
+        type: 'work',
         title: 'Halo',
         role: 'Full Stack Developer Internship',
         timeRange: 'September 2020 to October 2020',
@@ -66,10 +98,11 @@ export const projects = [
     },
     {
         id: '81a84f96-05cb-460c-90f9-f0374315e022',
+        type: 'work',
         title: 'Lifetime UI',
         role: 'Web Developer',
         timeRange: 'January 2020 to March 2020',
-        context: 'Lifetime UI is a small organization focused on developing a React user interface library for developers. I joined the team as a web developer, working directly with both the main architect and the designer to implement the user interface components.',
+        context: 'Lifetime UI is an organization focused on developing a React user interface library for developers. I joined the team as a web developer, working directly with both the main architect and the designer to implement the user interface components.',
         responsibilities: [
             'Built UI components to be used in the React based framework',
             'Collaborated with the lead developer and designer during development and design'
@@ -87,6 +120,7 @@ export const projects = [
     },
     {
         id: '5255b573-032b-45e8-a066-d1dbba88b623',
+        type: 'work',
         title: 'Zaner',
         role: 'UI and UX Developer',
         timeRange: 'January 2020 to March 2020',

@@ -27,6 +27,10 @@ export const ProjectsHeading = styled.div `
     ${constants.mediaQueries.mobileMediaQuery} {
        text-align: center;
     }
+
+    :not(:first-of-type) {
+        margin-top: 64px;
+    }
 `
 
 export const ProjectsList = styled.div `
