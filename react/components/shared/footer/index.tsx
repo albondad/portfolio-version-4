@@ -7,7 +7,7 @@ export const Footer = () => {
     const history = useHistory();
 
     const footerIconsItemOnClick = (path) => {
-        window.location.href = path;
+        window.open(path);
     };
 
     return (
